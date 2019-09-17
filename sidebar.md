@@ -1,19 +1,20 @@
-### Programs
+## Programs
  * SingleCopy - File Deduplication
  * BatMon - System Monitoring
  * BridgeDirectConnect - Confrence Bridge Tool
 
-### Chrome Plugins
+## Chrome Plugins
  * SCCD Tools
 
-### Developers
-#### Libraries
+## Developers
+
+### Libraries
  * UNC Share Access
  * INI File Manager
  * Config Tasks Engine
-#### WinForm Controls
+### WinForm Controls
  * IPv4AddressTextBox
-#### Nullsoft Scriptable Install System (NSIS)
+### Nullsoft Scriptable Install System (NSIS)
  * .Net Version Check
  * String Explode
  * EmbeddedList Builder
