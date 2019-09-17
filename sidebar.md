@@ -4,7 +4,7 @@
  * BridgeDirectConnect - Confrence Bridge Tool
 
 ## Chrome Plugins
- * SCCD Tools
+ * [SCCD Tools](https://vshed.us/SCCD-Tools)
 
 ## Developers
 
