@@ -1,7 +1,7 @@
 ## Programs
- * SingleCopy - File Deduplication
- * BatMon - System Monitoring
- * BridgeDirectConnect - Confrence Bridge Tool
+ * [SingleCopy](https://vshed.us/SingleCopy) - File Deduplication
+ * [BatMon](https://vshed.us/BatMon) - System Monitoring
+ * [BridgeDirectConnect](https://vshed.us/BridgeDirectConnect) - Confrence Bridge Tool
 
 ## Chrome Plugins
  * [SCCD Tools](https://vshed.us/SCCD-Tools)
@@ -10,14 +10,14 @@
 
 ### Libraries
  * [UNC Share Access](https://vshed.us/vshed.IO.UncShare)
- * INI File Manager
- * Config Tasks Engine
+ * [INI File Manager](https://vshed.us/vshed.IO.INI)
+ * [Config Tasks Engine](https://vshed.us/vshed.Tasks)
 
 ### WinForm Controls
- * IPv4AddressTextBox
+ * [IPv4AddressTextBox](https://vshed.us/)
 
 ### Nullsoft Scriptable Install System (NSIS)
- * .Net Version Check
- * String Explode
- * EmbeddedList Builder
- * GetAssemblyValue
+ * [.Net Version Check](https://vshed.us/NSIS_DotNetVersion)
+ * [String Explode](https://vshed.us/NSIS_strExplode)
+ * [EmbeddedList Builder](https://vshed.us/)
+ * [GetAssemblyValue](https://vshed.us/)
