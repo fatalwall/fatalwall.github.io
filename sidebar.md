@@ -9,9 +9,9 @@
 ## Developers
 
 ### Libraries
- * [UNC Share Access](https://vshed.us/vshed.IO.UncShare)
- * [INI File Manager](https://vshed.us/vshed.IO.INI)
- * [Config Tasks Engine](https://vshed.us/vshed.Tasks)
+ * [.IO.UncShare](https://vshed.us/vshed.IO.UncShare)
+ * [.IO.INI](https://vshed.us/vshed.IO.INI)
+ * [.Tasks](https://vshed.us/vshed.Tasks)
 
 ### WinForm Controls
  * [IPv4AddressTextBox](https://vshed.us/)
