@@ -38,9 +38,11 @@
         </section>
         
         <aside id="sidebar">      
-			{% if site.github.is_user_page %}
-				{% capture my_include %}{% include sidebar.md %}{% endcapture %}{{ my_include | markdownify }}
-			{% endif %} 
+		{% if site.github.is_user_page %}
+			{% unless page.id %}
+				{% capture my_include %}{% includeinclude_relative sidebar.md %}{% endcapture %}{{ my_include | markdownify }}
+			{% endunless %}
+		{% endif %} 
         </aside>
         {% if site.github.is_project_page %}
           <script>
