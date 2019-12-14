@@ -34,15 +34,14 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
+	  {%if page.id %}
+	  	# {{ page.title }}
+	  {% endif %}
           {{ content }}
         </section>
         
         <aside id="sidebar">      
-		{% if site.github.is_user_page %}
-			{% unless page.id %}
-				{% capture my_include %}{% includeinclude_relative sidebar.md %}{% endcapture %}{{ my_include | markdownify }}
-			{% endunless %}
-		{% endif %} 
+		
         </aside>
         {% if site.github.is_project_page %}
           <script>
