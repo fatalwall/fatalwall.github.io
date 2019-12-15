@@ -42,9 +42,6 @@
         
         <aside id="sidebar">      
 	  {% if site.github.is_user_page %}
-	    {% if page.id %}
-	      {% capture my_include %}{% include sidebar.md %}{% endcapture %}{{ my_include | markdownify }}
-	    {% else %}
 	      {% capture my_include %}{% include sidebar.md %}{% endcapture %}{{ my_include | markdownify }}
     	    {% endif %}
 	  {% endif %}
