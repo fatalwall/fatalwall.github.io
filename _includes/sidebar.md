@@ -21,5 +21,5 @@
 ### Nullsoft Scriptable Install System (NSIS)
  * [.Net Version Check](https://vshed.us/NSIS_DotNetVersion)
  * [String Explode](https://vshed.us/NSIS_strExplode)
- * [EmbeddedList Builder](https://vshed.us/BuildEventTools)
- * [GetAssemblyValue](https://vshed.us/BuildEventTools)
+ * [EmbeddedList Builder](https://vshed.us/BuildEventTools#nsisembeddedlistbuilder)
+ * [GetAssemblyValue](https://vshed.us/BuildEventTools#getassemblyvalue)
