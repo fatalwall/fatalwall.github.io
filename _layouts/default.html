@@ -43,7 +43,6 @@
         <aside id="sidebar">      
 	  {% if site.github.is_user_page %}
 	      {% capture my_include %}{% include sidebar.md %}{% endcapture %}{{ my_include | markdownify }}
-    	    {% endif %}
 	  {% endif %}
         </aside>
         {% if site.github.is_project_page %}
