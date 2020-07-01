@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<link rel="stylesheet" type="text/css" href="assets/css/gitcast.css">
+<link rel="stylesheet" type="text/css" href="assets/css/reviews.css">
 
 {%- for collection in site.collections | where: "label", "reviews" -%}
   {%- assign sorted = collection.docs | sort: 'title' -%}
