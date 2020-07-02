@@ -3,3 +3,4 @@ title: vShed
 
 collections:
   reviews:
+    permalink: /:collection/:title/
