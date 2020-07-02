@@ -4,6 +4,9 @@ layout: default
 
 <link rel="stylesheet" type="text/css" href="assets/css/reviews.css">
 
+{% assign collection = site.collections | where:"label", "reviews" | first %}
+{{ collection.description }}
+
 {%- for collection in site.collections | where: "label", "reviews" -%}
   {%- assign sorted = collection.docs | sort: 'title' -%}
   {%- for review in sorted -%} 
