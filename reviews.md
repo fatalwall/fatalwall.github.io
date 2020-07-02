@@ -20,7 +20,7 @@ layout: default
         <p class="excerpt">{{review.excerpt | strip_html}}</p>
       </div>
       <div class="review-action">
-        <a class="read-more" href="{{site.baseurl}}{{review.url}}">Read More</a>
+        <a class="read-more" href="{{review.url}}">Read More</a>
       </div>
     </div>
   </div>
