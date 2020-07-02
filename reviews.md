@@ -8,9 +8,8 @@ layout: default
 
 
 
-{%- for collection in site.collections | where: "label", "reviews" -%}
-  {%- assign sorted = collection.docs | sort: 'title' -%}
-  {%- for review in sorted -%} 
+{%- for review in site.reviews | sort: 'title' -%}
+
   
 <article class='review-artical' id='{{review.title}}'>
   <div class='review-content'>
@@ -32,5 +31,4 @@ layout: default
   </div>
 </article>
 
-  {%- endfor -%}
 {%- endfor -%}
