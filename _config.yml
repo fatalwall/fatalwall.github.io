@@ -3,4 +3,5 @@ title: vShed
 
 collections:
   reviews:
+    output: true
     permalink: /:collection/:title/
