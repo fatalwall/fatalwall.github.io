@@ -3,11 +3,7 @@
 ## Programs
  * [SingleCopy](https://vshed.us/SingleCopy) - File Deduplication
  * [BatMon](https://vshed.us/BatMon) - System Monitoring
- * [BridgeDirectConnect](https://vshed.us/BridgeDirectConnect) - Confrence Bridge Tool
-
-## Chrome Plugins
- * [SCCD Tools](https://vshed.us/SCCD-Tools)
-
+ 
 ## Developers
 
 ### Libraries
@@ -24,5 +20,12 @@
  * [EmbeddedList Builder](https://vshed.us/BuildEventTools#nsisembeddedlistbuilder)
  * [GetAssemblyValue](https://vshed.us/BuildEventTools#getassemblyvalue)
 
-### Other
+## Other
  * [Reviews/Recomendations](https://vshed.us/reviews)
+
+## Archive
+### Programs
+* [BridgeDirectConnect](https://github.com/fatalwall/BridgeDirectConnect) - Confrence Bridge Tool
+### Chrome Plugins
+ * [SCCD Tools](https://vshed.us/SCCD-Tools)
+
