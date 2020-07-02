@@ -8,11 +8,8 @@ layout: default
   {%- assign sorted = collection.docs | sort: 'title' -%}
   {%- for post in sorted -%} 
   
-<article class='review-artical' id='{{include.title}}'>
+<article class='review-artical' id='{{post.title}}'>
   <div class='review-content'>
-    <div class='review-cover'>
-      <img src="{{internal-cover}}" alt="ImageDescription" />
-    </div>  
     <div class='review-body'>
       <div class="review-header">
         <div class="review-title">
