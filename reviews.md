@@ -7,6 +7,9 @@ layout: default
 {% assign collection = site.collections | where:"label", "reviews" | first %}
 {{ collection.description }}
 
+cats dogs mice
+
+
 {%- for collection in site.collections | where: "label", "reviews" -%}
   {%- assign sorted = collection.docs | sort: 'title' -%}
   {%- for review in sorted -%} 
