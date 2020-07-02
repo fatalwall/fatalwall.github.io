@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-
-<link rel="stylesheet" type="text/css" href="assets/css/reviews.css">
-
 {%- for review in site.reviews | sort: 'title' -%}
  
 <article class='review-artical' id='{{review.title}}'>
