@@ -23,3 +23,6 @@
  * [String Explode](https://vshed.us/NSIS_strExplode)
  * [EmbeddedList Builder](https://vshed.us/BuildEventTools#nsisembeddedlistbuilder)
  * [GetAssemblyValue](https://vshed.us/BuildEventTools#getassemblyvalue)
+
+### Other
+ * [Reviews/Recomendations](https://vshed.us/reviews)
