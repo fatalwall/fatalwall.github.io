@@ -4,10 +4,12 @@ layout: default
 
 <link rel="stylesheet" type="text/css" href="assets/css/reviews.css">
 
-{% assign collection = site.collections | where:"label", "reviews" | first %}
-{{ collection.description }}
-
+{% assign reviews = site.collections | where:"label", "reviews" | sort: 'title'  %}
+{%- for r in reviews -%} 
 cats dogs mice
+
+{%- endfor -%}
+
 
 
 {%- for collection in site.collections | where: "label", "reviews" -%}
